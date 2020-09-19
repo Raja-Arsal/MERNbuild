@@ -1,0 +1,18 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "server.js",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Raja Arslan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "mongoose": "^5.10.5",
+    "pusher": "^3.0.1"
+  }
+}

@@ -5,7 +5,7 @@ The database is offered by MONGODB, server API by Nodejs/express and front end i
 Besides, Mongoose is used to connect to the mongodb for enabling real time chat post and get methods. Nodemon is used to ensure that the process reloads upon changes.
 
 The API sevrver is built through Express.js. 
-One of the critical feature here was using PUSHER with the mongodb which fires off any changes in the (collection) database to the front end and makes mongo real-time.
+One of the interesting feature here was using PUSHER with the mongodb which fires off any changes in the (collection) database to the front end and makes mongo real-time.
 It operated as:        Change in MongoDB -> FireChangeStream -> CallPusher ->Integrate in front end.
 
 Front-end:

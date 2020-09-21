@@ -16,7 +16,7 @@ Likewise, get method retrieves the posted data through above endpoint. (:9000/me
 Used to connect with the DB and make it realtime through following functions
            >  Change Stream: .watch() method to listen for changes   -->   Pusher: Responds to changes and triggers the front-end. **Used to perform the functionality of socket.io.**
 
-## First UseEffect (), the app uses axio.get(/messa...) to get the data from the API through server and store it in state. 
+## First UseEffect (), the app uses axios.get(/messa...) to get the data from the API routes through server and store it in state. 
 ## 2nd useEffect(), pusher is called and the retrieved data from API (stored in state) is appended to pusher in realtime. 
         
 Nodemon is used to ensure that the process reloads upon changes.

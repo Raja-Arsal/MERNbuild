@@ -5,6 +5,7 @@ This MERN chat app includes a room built for users to chat in a screen.
    ## nodemon server.js 
 ## For front-end src(App.js) use this to launch front-end: npm start
 
+Once server connects, the stored (custom in DB) will be displayed and chat can be continued. 
 **Back-end**:
 ## Database 
 MongoDB atlas is used to create the store of messages and made real time. The schema comprises of {name, messages, timestamp, received)
@@ -21,7 +22,7 @@ Used to connect with the DB and make it realtime through following functions
 ## 2nd useEffect(), pusher is called and the retrieved data from API (stored in state) is appended to pusher in realtime. 
         
 Nodemon is used to ensure that the process reloads upon changes.
-
+cors() middleware is used to override browsers policy restrctions.
 
 # Front-end:
 

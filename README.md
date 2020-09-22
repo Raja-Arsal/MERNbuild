@@ -25,7 +25,9 @@ Nodemon is used to ensure that the process reloads upon changes.
 # Front-end:
 
 ## Axios
-Responsible for trigerring server through API calls. A base URL instance is created (localhost:900), then get (.../sync) and post (.../messages) is used to append (.get) with the base URL. 
+Responsible for trigerring server through API calls. A base URL instance is created (localhost:900), then get (.../sync) and post (.../messages) is used to append (axios.get) with the base URL. 
+
+In the chatbox, the text is stored in a state and when submitted by user, axios posts the state to the database.  
 
 ## Material UI
 The UI is designed to look minimal and sleek with a UI of Whatsapp. The avatars appearing on the sidebar change on every reload by doing a Math.min() with an API number.

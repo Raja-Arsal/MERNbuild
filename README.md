@@ -37,7 +37,8 @@ The UI is designed to look minimal and sleek with a UI of Whatsapp. The avatars 
 
 ## State Management
 
-The state management is done through stateful hooks. 
+The state management is done through stateful hooks mainly for storing data retrieved from API and appending the chat messages through stored states. 
+
 
 The base of layout is reliant on the CSS flexbox. 
 

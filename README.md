@@ -1,7 +1,8 @@
 # UPDATED:
 This MERN chat app includes a room built for users to chat in a screen. 
 
-## For Back-end (inside back-end folder) use this to launch the server: nodemon server.js 
+## For Back-end (inside back-end folder) use this to launch the server: cd backend 
+   ## nodemon server.js 
 ## For front-end src(App.js) use this to launch front-end: npm start
 
 **Back-end**:
